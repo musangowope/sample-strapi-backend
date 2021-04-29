@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gundams",
+  "info": {
+    "name": "Gundams"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ModelName": {
+      "type": "string"
+    },
+    "DateOfConception": {
+      "type": "date"
+    }
+  }
+}
